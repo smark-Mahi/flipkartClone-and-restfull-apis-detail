@@ -1,0 +1,23 @@
+.Nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(128, 128, 128, 0.687);
+    position: relative;
+}
+.btn{
+   position: relative;
+   background-color: rgb(8, 93, 228); 
+   color: white;
+   width: 7vw;
+   height: 7vh;
+  float: right;
+  right: 30px;
+  top: -30px;
+  margin-right:9px ;
+}
+.Nav:first-child{
+    color: rgb(18, 17, 17);
+    position:relative;
+    font-weight: 400;
+    padding-left: 10px;
+}

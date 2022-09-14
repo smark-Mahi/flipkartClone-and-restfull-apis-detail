@@ -1,0 +1,84 @@
+.sidebar{
+    width: 15vw;
+    height: 80vh;
+    z-index: 999;
+    margin-top: 70px;
+    border-right: 1px solid rgba(0, 0, 0, 0.188);
+    transition: all 0.3s ease;
+}
+.flex{
+    width: 20vw;
+}
+.close{
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+   left: 190px;
+   transform: all 0.3s ease;
+}
+.halfsidebar{
+    width: 5vw;
+    height: 80vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.189);
+    z-index: 999;
+    margin-top: 70px;
+    transition: all 1s ease;
+}
+.open{
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+   left: 60px;
+   bottom: 390px;
+   transform: all 0.3s ease;
+   z-index: 5;
+}
+.open:hover{
+    color: red;
+}
+.close:hover{
+    color: red;
+}
+.hr{
+    height: 4vh;
+}
+.div{
+    width: 14vw;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    left: 5px;
+    height: 7vh;
+}
+.container{
+    width: 3vw;
+    height: 5vh;
+    background-color: rgb(230, 230, 134);
+    position:absolute;
+   transition: all 1s ease;
+   left: 10px;
+   border-radius: 2px;
+}
+.icon{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-size: 17px;
+}
+.div:hover{
+    background-color: rgba(41, 41, 240, 0.911);
+}
+.halfsidebar .div{
+    width: 4.5vw;
+}
+.halfsidebar .div:hover{
+    background-color: blue;
+}
+.halfsidebar .div .container{
+    margin-bottom: 4px;
+    margin-right: 10px;
+}

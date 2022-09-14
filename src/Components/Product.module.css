@@ -1,0 +1,105 @@
+.Cards:hover{
+    box-shadow: 9px 6px 6px 9px rgba(43, 39, 39, 0.153);
+    transform:translateY(-10px);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h4{
+    text-align: center;
+    line-height: 9px;
+    font-weight: 500;
+}
+.line{
+    display: flex;
+    color: gray;
+}
+.div{
+    margin-left: 30px;
+}
+.input{
+    width: 2vw;
+    margin-left: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.539);
+}
+.button1{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    top: -25px;
+    right: 10px;
+}
+.button2{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    top: -55px;
+   left: 78px;
+}
+.h2{
+    font-weight: 700;
+}
+.disable{
+    background-color: green;
+}
+.Nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.inputt{
+    width: 60vw;
+    height: 5vh;
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.carticon{
+    font-size: 25px;
+    position: absolute;
+    top: 14px;
+    right: 35px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    position: absolute;
+    right: 27px;
+}
+.num{
+    font-size: 13px;
+    font-weight: 300;
+}
+@media screen and (min-width:645px){
+
+}
+.h5{
+    font-size: 50px;
+    z-index: 99999;
+}
